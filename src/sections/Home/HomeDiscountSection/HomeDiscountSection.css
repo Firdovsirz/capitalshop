@@ -1,0 +1,29 @@
+.home-discount-section {
+    width: 100%;
+    background: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-discount-section>h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.home-discount-section>.discount-shop-now-btn {
+    border: none;
+    border-bottom: 4px solid #CEBD9C;
+    color: #CEBD9C;
+    font-size: 20px;
+    background: none;
+    padding-bottom: 5px;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.home-discount-section>.discount-shop-now-btn:hover {
+    scale: 1.1;
+}
