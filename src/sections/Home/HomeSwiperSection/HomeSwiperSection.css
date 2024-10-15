@@ -1,9 +1,17 @@
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-first-slide {
-    background: url(../../assets/Header/home-first-slide-bg.jpg);
+    background: url(../../../assets/Header/home-first-slide-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
 }
 
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-second-slide {
-    background: url(../../assets/Header/home-second-slide-bg.jpg);
+    background: url(../../../assets/Header/home-second-slide-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
 }
 
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-first-slide {
@@ -29,12 +37,12 @@
     color: #FF2020;
     font-size: 25px;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-slide>.home-slide-txt>h2 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-slide>.home-slide-txt>p {
@@ -42,7 +50,7 @@
     font-size: 20px;
     line-height: 2cap;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .home-swiper-section>.mySwiper>.swiper-wrapper>.home-slide>.home-slide-txt>button {

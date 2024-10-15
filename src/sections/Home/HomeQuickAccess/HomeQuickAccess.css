@@ -1,0 +1,55 @@
+.home-quick-access-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.home-quick-access-section>.home-access-container {
+    width: calc(100% / 3 - 40px);
+    height: 380px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-quick-access-section>.home-access-container>.home-access-txt {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-quick-access-section>.home-access-container>.home-access-txt>h3 {
+    width: 200px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.home-quick-access-section>.home-access-container>.home-access-txt>p {
+    width: fit-content;
+    color: #CEBD9C;
+    padding: 5px;
+    border-bottom: 3px solid #CEBD9C;
+    font-size: 18px;
+    margin-bottom: -40px;
+    transition: all 400ms;
+}
+
+.home-quick-access-section>.home-access-container:hover .shop-now-access {
+    margin-bottom: 10px;
+}
+
+.home-quick-access-section>.home-access-container>img {
+    width: 100%;
+    height: 100%;
+    transition: all 400ms;
+}
+
+.home-quick-access-section>.home-access-container>img:hover {
+    transform: scale(1.1);
+}
