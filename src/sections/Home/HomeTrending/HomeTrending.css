@@ -1,0 +1,92 @@
+.home-trending-section {
+    padding: 40px 100px;
+}
+
+.home-trending-section>.home-trending-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+    border-bottom: 1px solid #edeff2;
+}
+
+.home-trending-section>.home-trending-heading>.trending-head-txt>h4 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection {
+    width: 500px;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection>ul>li {
+    list-style-type: none;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection>ul>li:after {
+    content: "";
+    width: 0;
+    height: 4px;
+    background: red;
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+    transition: all 400ms;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection>ul>li:hover:after {
+    width: 100%;
+}
+
+.home-trending-section>.home-trending-heading>.trending-heading-selection>ul>li:hover {
+    color: #ff2020;
+}
+
+.home-trending-section>.home-trending-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-trending-section>.home-trending-card-container>.trending-card-container {
+    border: 1px solid black;
+    width: calc(100% / 4 - 20px);
+    height: 600px;
+}
+
+.home-trending-section>.home-trending-card-container>.trending-card-container>img{
+    width: 100%;
+    height: 90%;
+}
+
+.home-trending-section>.home-trending-card-container>.trending-card-container>h5{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    transition: all 400ms;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.home-trending-section>.home-trending-card-container>.trending-card-container>h5:hover{
+    color: #ff2020;
+}
+.home-trending-section>.home-trending-card-container>.trending-card-container>.trending-card-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-trending-section>.home-trending-card-container>.trending-card-container>.trending-card-price>p:first-child{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
