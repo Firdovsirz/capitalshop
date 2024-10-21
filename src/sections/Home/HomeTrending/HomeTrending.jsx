@@ -62,48 +62,48 @@ export default function HomeTrending() {
     ];
     const babyCards = [
         {
-            image: MenBlueShirt,
-            name: 'baby',
-            price: 50.9,
+            image: WomenWhite,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: MenShoe,
-            name: 'baby',
-            price: 70.8,
+            image: WomenRed,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: '',
-            name: '',
-            price: 1.1,
+            image: WomenGray,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: '',
-            name: '',
-            price: 1.1,
-            disPrice: 120
+            image: WomenWhite,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
+            disPrice: 120.00
         }
     ];
     const fashionCards = [
         {
-            image: MenBlueShirt,
-            name: 'fashion',
-            price: 50.9,
+            image: WomenWhite,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: MenShoe,
-            name: 'Casual Men Shoe',
-            price: 70.8,
+            image: WomenRed,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: '',
-            name: '',
-            price: 1.1,
+            image: WomenGray,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
             disPrice: 120
         }, {
-            image: '',
-            name: '',
-            price: 1.1,
-            disPrice: 120
+            image: WomenWhite,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
+            disPrice: 120.00
         }
     ]
     const trendingCards = selection === 'men' ? menCards : selection === 'women' ? womenCards : selection === 'baby' ? babyCards : selection === 'fashion' ? fashionCards : menCards;

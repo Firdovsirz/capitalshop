@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
+    transition: all 400ms;
 }
 
 .home-trending-section>.home-trending-card-container>.trending-card-container {
@@ -72,6 +73,7 @@
     position: relative;
     margin-bottom: 30px;
     overflow: hidden;
+    transition: all 400ms;
 }
 
 .home-trending-section>.home-trending-card-container>.trending-card-container>.trend-card-img-container>img {
