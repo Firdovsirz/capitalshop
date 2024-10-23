@@ -1,10 +1,15 @@
 import "../HomeTrending/HomeTrending.css";
+import { useTranslation } from "react-i18next";
 import React, { useState, useEffect } from 'react';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import MenShoe from "../../../assets/Home/HomeTrending/Men/men-shoe.jpg";
+import BabyFirst from "../../../assets/Home/HomeTrending/Baby/babyFirst.jpg";
+import BabyThird from "../../../assets/Home/HomeTrending/Baby/babyThird.jpg";
 import MenJacket from "../../../assets/Home/HomeTrending/Men/men-jacket.jpeg";
+import BabyFourth from "../../../assets/Home/HomeTrending/Baby/babyFourth.webp";
+import BabySecond from "../../../assets/Home/HomeTrending/Baby/babySecond.webp";
 import MenShirt from "../../../assets/Home/HomeTrending/Men/men-shirt-blue.jpg";
 import WomenRed from "../../../assets/Home/HomeTrending/Women/women-red-cloth.jpg";
 import WomenGray from "../../../assets/Home/HomeTrending/Women/women-gray-cloth.jpg";
@@ -13,7 +18,7 @@ import WomenWhite from "../../../assets/Home/HomeTrending/Women/women-white-clot
 
 export default function HomeTrending() {
     const [selection, setSelection] = useState('');
-
+    const { t } = useTranslation();
     const menCards = [
         {
             image: MenBlueShirt,
@@ -62,22 +67,22 @@ export default function HomeTrending() {
     ];
     const babyCards = [
         {
-            image: WomenWhite,
+            image: BabyFirst,
             name: 'Cashmere Tank + Bag',
             price: 98.00,
             disPrice: 120
         }, {
-            image: WomenRed,
+            image: BabySecond,
             name: 'Cashmere Tank + Bag',
             price: 98.00,
             disPrice: 120
         }, {
-            image: WomenGray,
+            image: BabyThird,
             name: 'Cashmere Tank + Bag',
             price: 98.00,
             disPrice: 120
         }, {
-            image: WomenWhite,
+            image: BabyFourth,
             name: 'Cashmere Tank + Bag',
             price: 98.00,
             disPrice: 120.00
@@ -90,17 +95,17 @@ export default function HomeTrending() {
             price: 98.00,
             disPrice: 120
         }, {
+            image: MenBlueShirt,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
+            disPrice: 120
+        }, {
+            image: BabyThird,
+            name: 'Cashmere Tank + Bag',
+            price: 98.00,
+            disPrice: 120
+        }, {
             image: WomenRed,
-            name: 'Cashmere Tank + Bag',
-            price: 98.00,
-            disPrice: 120
-        }, {
-            image: WomenGray,
-            name: 'Cashmere Tank + Bag',
-            price: 98.00,
-            disPrice: 120
-        }, {
-            image: WomenWhite,
             name: 'Cashmere Tank + Bag',
             price: 98.00,
             disPrice: 120.00
@@ -132,14 +137,22 @@ export default function HomeTrending() {
         <section className='home-trending-section'>
             <div className='home-trending-heading'>
                 <div className='trending-head-txt'>
-                    <h4>Trending This Week</h4>
+                    <h4>{t('home-trending-head-txt', { ns: 'home' })}</h4>
                 </div>
                 <div className='trending-heading-selection'>
                     <ul>
-                        <li onClick={() => handleTrendingCards('men')} value={selection}>Men</li>
-                        <li onClick={() => handleTrendingCards('women')}>Women</li>
-                        <li onClick={() => handleTrendingCards('baby')}>Baby</li>
-                        <li onClick={() => handleTrendingCards('fashion')}>Fashion</li>
+                        <li onClick={() => handleTrendingCards('men')} value={selection}>
+                            {t('home-trending-selection-men', { ns: 'home' })}
+                        </li>
+                        <li onClick={() => handleTrendingCards('women')}>
+                            {t('home-trending-selection-women', { ns: 'home' })}
+                        </li>
+                        <li onClick={() => handleTrendingCards('baby')}>
+                            {t('home-trending-selection-baby', { ns: 'home' })}
+                        </li>
+                        <li onClick={() => handleTrendingCards('fashion')}>
+                            {t('home-trending-selection-fashion', { ns: 'home' })}
+                        </li>
                     </ul>
                 </div>
             </div>

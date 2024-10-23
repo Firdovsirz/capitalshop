@@ -1,0 +1,49 @@
+.lang-change-container {
+    position: relative;
+}
+
+.lang-change-container>.current-lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.lang-change-container>.current-lang>.current-lang-info {
+    display: flex;
+    align-items: center;
+}
+
+.lang-change-container>.current-lang>.current-lang-info>img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.lang-change-container>.lang-list {
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    position: absolute;
+    bottom: -120px;
+    z-index: 1000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.lang-change-container>.lang-list>.aval-lang {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.lang-change-container>.lang-list>.aval-lang:first-child {
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.lang-change-container>.lang-list>.aval-lang>img {
+    width: 30px;
+    margin-right: 20px;
+}
