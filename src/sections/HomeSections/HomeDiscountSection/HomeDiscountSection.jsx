@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import "../HomeDiscountSection/HomeDiscountSection.css";
+import "./HomeDiscountSection.css";
 
 export default function HomeDiscountSection() {
     const { t } = useTranslation();

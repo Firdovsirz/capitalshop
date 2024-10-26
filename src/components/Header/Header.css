@@ -47,6 +47,7 @@ header>nav>.header-main>ul>li {
 
 header>nav>.header-main>ul>li>.header-search-icon {
     transition: all 400ms;
+    color: #999999;
     cursor: pointer;
 }
 
@@ -56,6 +57,7 @@ header>nav>.header-main>ul>li>.header-search-icon:hover {
 
 header>nav>.header-main>ul>li>.header-profile-icon {
     transition: all 400ms;
+    color: #999999;
     cursor: pointer;
 }
 
@@ -65,6 +67,7 @@ header>nav>.header-main>ul>li>.header-profile-icon:hover {
 
 header>nav>.header-main>ul>li>.header-cart-icon {
     transition: all 400ms;
+    color: #999999;
     cursor: pointer;
 }
 
