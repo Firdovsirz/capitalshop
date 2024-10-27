@@ -29,5 +29,9 @@
     "home-payment-head-text": "Secure Payment",
     "home-guarantee-service-head-text": "Money Back Guarantee",
     "home-support-service-head-text": "Online Support",
-    "home-service-desc-text": "Free delivery on all orders"
+    "home-service-desc-text": "Free delivery on all orders",
+    "footer-sub-head-text": "Subscribe Newsletter",
+    "footer-sub-text": "Subscribe newsletter to get 5% on all products.",
+    "footer-sub-input-text": "Enter your email",
+    "footer-sub-btn-text": "Subscribe"
 }

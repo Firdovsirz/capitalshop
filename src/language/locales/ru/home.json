@@ -29,5 +29,9 @@
     "home-payment-head-text": "Безопасная оплата",
     "home-guarantee-service-head-text": "Гарантия возврата денег",
     "home-support-service-head-text": "Онлайн-поддержк",
-    "home-service-desc-text": "Бесплатная доставка на все заказы"
+    "home-service-desc-text": "Бесплатная доставка на все заказы",
+    "footer-sub-head-text": "Подписаться на рассылку новостей",
+    "footer-sub-text": "Подпишитесь на рассылку, чтобы получить скидку 5% на все продукты.",
+    "footer-sub-input-text": "Введите электронной почты",
+    "footer-sub-btn-text": "Подписаться"
 }

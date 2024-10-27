@@ -8,6 +8,7 @@ import HomeComments from '../../sections/HomeSections/HomeComments/HomeComments'
 import HomeQuickAccess from "../../sections/HomeSections/HomeQuickAccess/HomeQuickAccess";
 import HomeSwiperSection from '../../sections/HomeSections/HomeSwiperSection/HomeSwiperSection';
 import HomeDiscountSection from '../../sections/HomeSections/HomeDiscountSection/HomeDiscountSection';
+import Footer from '../../components/Footer/Footer';
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
                 <HomeNews />
                 <HomeServices />
             </main>
+            <Footer />
         </>
     )
 }
